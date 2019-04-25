@@ -75,9 +75,9 @@ $( document ).ready(function() {
       url: '/api/books',
       type: 'delete',
       dataType: 'json',
-      data: $('#newBookForm').serialize(),
+     data: $('#newBookForm').serialize(),
       success: function(data) {
-        //update list
+        //update list  
       }
     });
   }); 
